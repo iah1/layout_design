@@ -1,0 +1,489 @@
+*, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 30px;
+}
+
+h1 {
+    padding: 10px 0;
+}
+
+/*  example */
+
+.ex_container {
+    width: 100%;
+}
+
+.head {
+    width: 100%;
+    height: 100px;
+    background-color: aqua;
+}
+
+.container {
+    overflow: hidden;
+}
+
+.side {
+    width: 30%;
+    height: 150px;
+    float: left;
+    background-color: coral;
+}
+
+.content {
+    width: 70%;
+    height: 150px;
+    float: left;
+    background-color: rgb(31, 118, 248);
+}
+
+.wrapper {
+    overflow: hidden;
+}
+
+.bx1 {
+    width: 33.33%;
+    height: 150px;
+    float: left;
+    background-color: darkred;
+}
+
+.bx2 {
+    width: 33.33%;
+    height: 150px;
+    float: left;
+    background-color: rgb(0, 139, 42);
+}
+
+.bx3 {
+    width: 33.33%;
+    height: 150px;
+    float: left;
+    background-color: rgb(49, 0, 139);
+}
+
+.foot {
+    height: 100px;
+    background-color: rgb(165, 32, 218);
+}
+
+
+
+
+
+
+/* layout one */
+.container_1 {
+    width: 100%;
+    padding: 1.33%;
+    background-color: rgba(212, 255, 255, 0.74);
+}
+
+.logo {
+    width: 100%;
+    height: 60px;
+    background-color: #BEBEBE;
+}
+
+.logo p {
+    text-align: center;
+    padding-top: 1.5%;
+}
+
+.header {
+    width: 100%;
+    height: 105px;
+    background-color: #BEBEBE;
+    margin-top: 1.33%;
+}
+
+.header p {
+    text-align: center;
+    padding-top: 3%;
+}
+
+.navigation {
+    width: 100%;
+    margin-top: 1.33%;
+    overflow: hidden;
+}
+
+.nav {
+    width: 24%;
+    height: 40px;
+    background-color: #BEBEBE;
+    float: left;
+}
+
+.nav p {
+    padding-top: 3%;
+}
+
+.nav_1 {
+    margin-right: 1.33%;
+}
+
+.nav_2 {
+    margin-right: 1.33%;
+}
+
+.nav_3 {
+    margin-right: 1.33%;
+}
+
+.main {
+    width: 100%;
+    clear: both;
+    margin-top: 1.33%;
+    overflow: hidden;
+}
+
+.left {
+    width: 59.30%;
+    height: 270px;
+    background-color: #BEBEBE;
+    margin-right: 17px;
+    float: left;
+}
+
+.right {
+    width: 39.34%;
+    float: left;
+}
+
+.top {
+    height: 110px;
+    background-color: #BEBEBE;
+    margin-bottom: 17px;
+}
+
+.bottom {
+    height: 143px;
+    background-color: #BEBEBE;
+}
+
+.footer {
+    margin-top: 17px;
+    padding: 1.5% 0;
+    text-align: center;
+    height: 70px;
+    background-color: #BEBEBE;
+}
+
+
+
+/*  layout two */
+
+.container_2 {
+    width: 100%;
+    padding: 20px;
+    background-color: rgba(212, 255, 255, 0.74);
+}
+
+.logo_2 {
+    width: 100%;
+    padding: 20px;
+    background-color: #BEBEBE;
+}
+
+.nav2 {
+    width: 100%;
+    padding: 15px;
+    background-color: #BEBEBE;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.banner {
+    width: 100%;
+    padding: 150px 0;
+    background-color: #BEBEBE;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.wrapper_1 {
+    width: 100%;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.sidebar {
+    width: 20%;
+    background-color: #BEBEBE;
+    height: 60vh;
+    float: left;
+    margin-right: 2%;
+}
+
+.sidebar p {
+    padding-top: 105px;
+    padding-left: 20px;
+}
+
+.body_area {
+    width: 78%;
+    height: 60vh;
+    background-color: #BEBEBE;
+    float: left;
+}
+
+.body_area p {
+    padding-top: 105px;
+    text-align: center;
+}
+
+.footer_2 {
+    clear: both;
+    width: 100%;
+    padding: 15px;
+    background-color: #BEBEBE;
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+
+/* layout three */
+
+.container_3 {
+    width: 100%;
+    padding: 20px;
+    background-color: rgba(212, 255, 255, 0.74);
+}
+
+.navbars {
+    width: 100%;
+    padding: 20px 0;
+    background-color: #BEBEBE;
+    overflow: hidden;
+}
+
+.logo_3 {
+    width: 10%;
+    float: left;
+    padding-left: 20px;
+}
+
+.menu {
+    width: 25%;
+    margin: 0 auto;
+    float: right;
+}
+
+.banner_2 {
+    width: 100%;
+    height: 40vh;
+    background-color: #BEBEBE;
+    margin-top: 10px;
+}
+
+.banner_2 p {
+    text-align: center;
+    padding-top: 80px;
+}
+
+.intro {
+    width: 100%;
+    padding: 30px 0;
+    background-color: #BEBEBE;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.boxs {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.box {
+    width: 30%;
+    height: 70vh;
+    background-color: #BEBEBE;
+    float: left;
+}
+
+.box p {
+    padding-top: 35%;
+    text-align: center;
+}
+
+.box-1 {
+    margin-right: 5%;
+}
+
+.box-2 {
+    margin-right: 5%;
+}
+
+.footer_3 {
+    width: 100;
+    padding: 20px 0;
+    text-align: center;
+    background-color: #BEBEBE;
+    margin-top: 20px;
+}
+
+
+
+/* layout four */
+
+.container_4 {
+    width: 100%;
+    padding: 20px;
+    background-color: rgba(212, 255, 255, 0.74);
+}
+
+.logo_4 {
+    width: 100%;
+    padding: 20px;
+    background-color: #BEBEBE;
+}
+
+.main_2 {
+    width: 100%;
+    margin-top: 10px;
+    overflow: hidden;
+    text-align: center;
+}
+
+
+
+.side_nav2 {
+    width: 15%;
+    float: left;
+    background-color: #ffffff;
+    height: 82vh;
+    margin-right: 1%;
+}
+
+.side_nav2 p {
+    padding-top: 50px;
+}
+
+.main_body {
+    width: 84%;
+    height: 70vh;
+    float: left;
+}
+
+.header_2 {
+    width: 100%;
+    height: 30vh;
+    background-color: #BEBEBE;
+}
+
+.header_2 p {
+    padding-top: 50px;
+}
+
+.bodyarea_2 {
+    width: 100%;
+    height: 50vh;
+    margin-top: 10px;
+    background-color: #BEBEBE;
+}
+
+.bodyarea_2 p {
+    padding-top: 85px;
+}
+
+.footer_4 {
+    padding: 20px 0;
+    text-align: center;
+    background-color: #BEBEBE;
+    margin-top: 10px;
+}
+
+
+
+
+/* layout five */
+
+.container_5 {
+    width: 100%;
+    padding: 20px;
+    background-color: rgba(212, 255, 255, 0.74);
+}
+
+.navbars_2 {
+    width: 100%;
+    padding: 20px 0;
+    background-color: #BEBEBE;
+    overflow: hidden;
+}
+
+.logo_5 {
+    width: 10%;
+    float: left;
+    padding-left: 20px;
+}
+
+.menu_2 {
+    width: 25%;
+    margin: 0 auto;
+    float: right;
+}
+
+.box-container {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.main_boxs {
+    width: 100%;
+    overflow: hidden;
+}
+
+.boxx {
+    width: 23.5%;
+    height: 20vh;
+    background-color: #BEBEBE;
+    float: left;
+}
+
+.boxx_1,
+.boxx_2,
+.boxx_3 {
+    margin-right: 2%;
+}
+
+.box-margin {
+    margin-bottom: 20px;
+}
+
+.bottom_box {
+    width: 100%;
+    overflow: hidden;
+}
+
+.b_bx {
+    width: 32.5%;
+    height: 30vh;
+    background-color: #BEBEBE;
+    float: left;
+}
+
+.b_bx p {
+    text-align: center;
+    padding-top: 80px;
+}
+
+.b_bx_1,
+.b_bx_2 {
+    margin-right: 1.25%;
+}
+
+.footer_5 {
+    clear: both;
+    padding: 20px 0;
+    margin-top: 10px;
+    background-color: #BEBEBE;
+    text-align: center;
+}
